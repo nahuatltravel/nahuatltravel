@@ -205,3 +205,54 @@ main{
   background: wheat;
   }
 
+  .grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    padding: 5px;
+    background: wheat;
+    margin-left: 5px;
+  }
+
+.card1-otrazona{
+  grid-column: 2/3;
+  margin-top: -100px;
+  /*margin-left: 100px;*/
+  background:  #014009;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 1px 1px 4px 1px #888;
+  transition: all 0.25s;
+  overflow: hidden;
+  padding: 1px;
+  }
+  
+.card2-otrazona{
+  grid-column: 3/4;
+  margin-top: -100px;
+  margin-left: 15px;
+  background: #014009;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 1px 1px 4px 1px #888;
+  transition: all 0.25s;
+  overflow: hidden;
+  padding: 1px;
+}
+
+.back{
+  /*grid-column: 1/2;*/
+  /* margin-top: -100px; */
+  margin-left: -10px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+
+.back a{
+  color: blue;
+  background:wheat;
+  text-decoration: none;
+}

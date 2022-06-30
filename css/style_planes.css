@@ -19,6 +19,10 @@ body {
   border: 5px solid black;
   }
 
+  h3{
+    font-family: 'Patrick Hand', Arial, sans-serif;
+  }
+
 .header-grid{
   display: grid;
   grid-template-columns: repeat(5, 1fr);

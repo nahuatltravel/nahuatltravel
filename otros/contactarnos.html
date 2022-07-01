@@ -81,59 +81,54 @@
             compartir algún comentario o sugerencia para nuestro sitio o 
             para nuestro tipo de servicio ofrecido en este museo. <br />
             <br />
-            Gracias por contactarse con nosotros. 
           </p>
 
           <h2 class="sendmessage-headline-2">
-            Por favor llene los datos y presione el botón que dice ENVIAR MENSAJE.
+            Complete los datos y presione <strong>  ENVIAR MENSAJE </strong>
           </h2>
 
         <div id="feedback"> 
-            <form class="form-grid" action="/my-handling-form-page" method="post">
-                <label for="name">Nombres:</label>
-                <label for="lastname">Apellidos:</label>
+          <form class="form-grid" action="/my-handling-form-page" method="post">
+            <label for="name">Nombres:</label>
+            <label for="lastname">Apellidos:</label>
 
-                <input type="text" id="name" name="user_name" />
-                <input type="text" id="lastname" name="user_lastnamename" />
-                <br>
-                <br>
-                <label for="phonenumber">Número telefónico:</label>
-                <label for="mail">E-mail:</label>
-                <input type="text" id="phonenumber" name="user_phnomber" />
-                <input type="email" id="mail" name="user_email" />
-                <br>
-                <br>
-                <label for="state">Pais:</label>
-                <label for="city">Ciudad:</label>
-                
-                <select id="state" name="user_country">
-                    <option>Mexico</option>
-                    <option selected="selected">USA</option>
-                    <option>Nicaragua</option>
-                    <option>Argentina</option>
-                    <option>Costa Rica</option>
-                    <option>Guatemala</option>
-                    <option>Honduras</option>
-                    <option>Colombia</option>
-                    <option>Brasil</option>
-                    <option>Continente: América del sur</option>
-                    <option>Continente: África</option>
-                    <option>Continente: Asia</option>
-                </select>
+            <input type="text" id="name" name="user_name" />
+            <input type="text" id="lastname" name="user_lastnamename" />
 
-                <input type="text" id="city" name="user_city" />
+            <label for="phonenumber">Número telefónico:</label>
+            <label for="mail">E-mail:</label>
+            <input type="text" id="phonenumber" name="user_phnomber" />
+            <input type="email" id="mail" name="user_email" />
 
-                <label for="birth">Cumpleaños:</label> <br />
-                <input type="date" id="birth" name="user_birthday" /> <br />
-
-                <label for="msg">Mensaje:</label> <br />
-                <textarea class="messa" id="msg" name="user_message"></textarea>
-            </form>
-
-            <button class="button-send" type="submit">ENVIAR MENSAJE</button>
-       
+            <label for="state">Pais:</label>
+            <label for="city">Ciudad:</label>
             
-          
+            <select id="state" name="user_country">
+                <option>Mexico</option>
+                <option selected="selected">USA</option>
+                <option>Nicaragua</option>
+                <option>Argentina</option>
+                <option>Costa Rica</option>
+                <option>Guatemala</option>
+                <option>Honduras</option>
+                <option>Colombia</option>
+                <option>Brasil</option>
+                <option>Continente: América del sur</option>
+                <option>Continente: África</option>
+                <option>Continente: Asia</option>
+            </select>
+
+            <input type="text" id="city" name="user_city" />
+
+            <label for="birth">Cumpleaños:</label> <br />
+            <input type="date" id="birth" name="user_birthday" /> <br />
+
+            <label for="msg">Mensaje:</label> <br />
+            <textarea class="messa" id="msg" name="user_message"></textarea>
+        </form>
+            <button class="button-send" type="submit">ENVIAR MENSAJE</button>
+            <br>
+            <strong >  Gracias por contactarse con nosotros  </strong>
           <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById("feedback");

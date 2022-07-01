@@ -278,6 +278,122 @@ h4{
   
 }
 
+.aboutus-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 150px 150px 350px;
+  align-items: center;
+  background: wheat;
+}
+
+.home-banner-sendmessage {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+  margin-top: -300px;
+
+}
+
+.aboutus-paragraph-1 {
+  font-family: "Lexend Deca", Calibri, sans-serif;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 90%;
+  height: 95px;
+  margin-top: -100px;
+  margin-left: 15px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 13fr);
+
+  margin-left: 300px;
+  margin-top: -350px;
+  background: #FAF5F0;
+}
+
+.button-send {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+
+  font-size: 15px;
+  margin-left: 300px;
+  grid-row: 5/5;
+  grid-column: 4/5;
+  width: 100px;
+}
+
+button:hover {
+  color: black;
+  font-size: 15px;
+  background: lightgrey;
+}
+
+
+.sendmessage-headline-2{
+  margin-left: 30px  ;
+  font-size: 25px; 
+  margin-top: -300px; 
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+  background: lightblue;
+}
+
+select {
+  width: 250px;
+}
+
+select:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+  background: lightblue;
+  font: 1em sans-serif;
+}
+
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 250px;
+  box-sizing: border-box;
+  /* Match form field borders */
+  border: 1px solid purple;
+}
+
+
+label {
+  /* Uniform size & alignment */
+  /*display: inline-block;*/
+  width: 250px;
+  box-sizing: border-box;
+  text-align: left;
+  color: blue;
+}
+
+form {
+  /* Center the form on the page */
+  /*margin: 0 auto;*/
+  width: 600px;
+
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  background: blue;
+}
+
+
+
+
 
 .slider-datos-curiosos {
 	width: 100%;

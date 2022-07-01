@@ -240,15 +240,18 @@ h4{
 .datos-curiosos{
   background:wheat ;
   text-align: center;
+  margin-left: 5px;
 }
 
 .textDatosCuriosos {
+ 
   text-align: center;
   font-family: 'Amita', Arial, sans-serif;
+ 
+  color: #ffffff;
  }
 
 .paragro-datoscurioso{
-  color: #000000;
   font-family: 'Oleo Script', Arial, sans-serif;
   color:  #014009;
   font-size: 25px;
@@ -273,4 +276,44 @@ h4{
   grid-column: 4/6;
   margin-top: 5px;
   
+}
+
+
+.slider-datos-curiosos {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.slider-datos-curiosos ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	
+	animation: cambio 30s infinite alternate linear;
+}
+
+.slider-datos-curiosos li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-datos-curiosos p {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
 }

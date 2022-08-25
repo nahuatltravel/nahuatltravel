@@ -92,8 +92,7 @@ a{
   }    
 
 .grid-slider{
-  grid-row: 4/5;
-  grid-column: 1/5;
+
   margin-left: 10px;
   margin-right: 50px;
   margin-top: 150px;
@@ -191,6 +190,22 @@ nav ul {
   justify-content: space-around;
   flex-wrap: wrap;
   }
+
+.containerflex-playas{
+  display: grid;
+  /*grid-template-columns: repeat(2, 1fr);*/
+  /*grid-template-rows: repeat(5, 1fr);*/
+  /*margin-left: 0px;*/
+  background:rgb(10, 10, 10);
+  /*padding: 5px;*/
+}
+
+.enlaces-playas{
+  grid-column: 1/5;
+  /*grid-column: 1/1;*/
+  /*margin-top: 0px;*/
+  margin-left: 0px;
+}
 
 .menu{
   background:  #014009;
